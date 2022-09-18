@@ -2,4 +2,306 @@
         margin: 0px;
         padding: 0px;
         font-family: "Heebo", sans-serif;
+      
+}
+.a-bottom{
+        border: 1px solid white;
+        height:  40px;
+        width: 124px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+p{
+        font-size: 14px;
+}
+.a-bottom:hover{
+        background-color: white;
+        color: black;
+        transition: 0.8s;
+}
+
+/* HOME */
+
+.home{
+        width: 100%;
+        height: 100vh;  
+        background: linear-gradient(#4eacff,#5fd3f3);
+}
+
+
+
+
+/* NAVBAR */
+
+
+
+
+
+.navbar{
+        background-color: #4eacff;
+        z-index: 99;
+        position: fixed;
+        width: 100%;
+        height: 75px;
+        padding-bottom: 17px;
+        /* background-color: red; */
+}
+.navbar-items{
+        padding:  33px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+.navbar-a{
+        padding: 10px 0px;
+        display: flex;
+        justify-content: center;    
+}
+a{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+        margin: 0px 20px;
+}
+.nexus-logo{
+        width: 67px;
+        height: 19px;
+}
+
+
+
+
+
+/* HOME TITLE */
+
+
+
+
+
+.home-title{
+        flex: 1;
+        color: white;
+        width: 500px;
+        /* width        : 100vh; */
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+}
+.div-row{
+        display: flex;
+        flex-direction: row;
+        padding:250px 250px;
+
+}
+.home-title-h1{
+        font-size: 49px;
+        margin: 10px;
+        padding-left: 20px;
+}
+.home-title-p{
+        font-size: 15px;
+        margin: 10px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+}
+.home-image{
+              width:  580px;
+              height: 367px;
+}
+.a--bottom {
+        border: 1px solid white;
+        background-color: white;
+        color: black;
+        height: 40px;
+        width: 124px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 20px;
+}
+
+.a--bottom:hover {
+        border: 1px solid white;
+        color: white;
+        background: transparent;
+        transition: 0.7s;
+}
+.home-bottom{
+        display: flex;
+}
+
+
+
+
+/* how it work for you */
+
+
+
+.how-it-work-for-you_title{
+        margin: 0px 170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+.how-it-work-for-you{
+        width: 100%;
+}
+.how-it-work-for-you_title-h1{
+        color: #222;
+        padding-top: 90px;
+        margin-bottom: 20px;
+        font-size: 35px;
+}
+.how-it-work-for-you_title-p{
+        color: #777;
+        display: flex;
+        text-align: center;
+        font-size: 14px;
+}
+.monitor-i{
+        width: 40px;
+        margin: 10px 0px;
+}
+.card-h4{
+        color: #222;
+        margin: 30px;
+}
+
+.card-p{
+        color: #777;
+        font-size: 14px;
+        margin: 10px 0px;
+}
+.card{
+        width: 289.98px;
+        height: 221px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+}
+.card-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+.how-it-work-for-you_cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 100px;
+        padding-bottom:150px;
+}
+.c-h4:hover{
+        color: #007bff;
+        transition: 0.2s;
+}
+.about{
+        width: 100%;
+        height: 100vh;
+        background-color: #edf6ff;
+}
+.about-bottoms{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        height: 100px;
+        /* background-color: red; */
+        color: #222;
+}
+.about-bottom{
+        border: 1px solid rgb(248, 248, 248);
+        background-color: rgb(255, 255, 255);
+        height: 60px;
+        width: 210px;
+        display: flex;
+        justify-content: center;
+        margin-top: 170px;
+        align-items: center;
+        color: #222;
+                border-radius: 3%;
+}
+.about-bottom:active{
+        color: white;
+        transition: 0.4s;
+        background: linear-gradient(#c3e3ff, #8bd9ee);
+}
+.about--bottom{
+        padding: 20px;
+        margin: 0;
+        color: white;
+        width: 100px;
+        border-radius: 4.6%;
+        background: linear-gradient(#68aeec, #5fd3f3);
+}
+.about--bottom:hover {
+        color: white;
+        transition: 2s;
+        background: linear-gradient(#5fd3f3, #68aeec);
+}
+.about-h1{
+        margin: 15px 0px;
+        color: #222;
+}
+.about-h4{
+        margin-bottom: 10px;
+        color: #07181d;
+}
+.about-p{
+        margin-bottom: 28px;
+        color: #222;
+}
+.about-title{
+        display: flex;
+        margin: 0px 10px;
+        justify-content: center;
+        flex-direction: column;
+}
+.laptop-image_div{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center     ;
+        flex-direction: column;
+}
+.laptop-image_div-h1{
+        margin: 15px 0px;
+}
+.laptop3-div{
+        width: 100%;
+        height: 70vh;
+        background-color: #edf6ff;
+}
+.laptop3-div-title{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color:#222 ;
+}
+.laptop-3-div-image{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+}
+.div--row {
+        display: flex;
+        flex-direction: row;
+        padding: 100px 220px;
+
+}
+.laptop3-div-h4{
+        margin: 10px 0px;
+}
+.laptop3-div-p{
+        margin-bottom: 20px;
 }
