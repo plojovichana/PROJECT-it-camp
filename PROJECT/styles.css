@@ -12,7 +12,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
 }
 p{
         font-size: 14px;
@@ -167,6 +166,10 @@ a{
 .monitor-i{
         width: 40px;
         margin: 10px 0px;
+        padding: 10px;
+}
+.monitor-i:hover{
+        background: linear-gradient(#007bff,#9cc9fa);
 }
 .card-h4{
         color: #222;
@@ -203,6 +206,11 @@ a{
         color: #007bff;
         transition: 0.2s;
 }
+
+
+
+/* ABOUT CONTAINER */
+
 .about{
         width: 100%;
         height: 100vh;
@@ -265,6 +273,10 @@ a{
         justify-content: center;
         flex-direction: column;
 }
+
+
+/* LAPTOP IMAGE CONTAINER  */
+
 .laptop-image_div{
         width: 100%;
         height: 100vh;
@@ -305,3 +317,115 @@ a{
 .laptop3-div-p{
         margin-bottom: 20px;
 }
+
+
+/* PRICE CONTAINER */
+
+
+
+
+.price-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+.price-title-h1{
+        margin: 0px 0px 15px;
+}
+.price-title-p{
+         margin: 0px 180px;
+         margin-bottom: 100px;
+}
+.prices{
+        padding: 100px;
+}
+.price-cards{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+}
+.price-card-h2{
+        background-color: #edf6ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 35px 35px;
+
+}
+.price-card-p{
+        color: #777;
+        margin: 15px;
+}
+.price-card{
+        height: 560.39px;
+        width:  370px;
+        text-align: center;
+        border: 1px solid #eee;
+        border-radius: 5px;
+}
+#card-p{
+        margin-top: 50px;
+}
+.price-card-in-price-div{
+        max-width: 280px;
+        margin: 0 auto 40px;
+        margin-top: 50px;
+        background: #edf6ff;
+        border-radius: 5px;
+        padding-top: 35px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+}
+
+.price-card-in-price-div-tile{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+                align-items: center;
+
+}
+.card-h1-price{
+        font-size: 72px;
+}
+.dlr{
+        display: flex;
+        font-size: 24px;
+                vertical-align: top;
+                padding-top: 14px;
+                display: inline-block;
+}
+.month{
+        font-size: 14px;
+        color: #777;
+        font-family: "Roboto", sans-serif;
+        display: inline-block;
+        margin-top: 36px;
+        text-align: left;
+}
+.price-card-bottom{
+        background: linear-gradient( #4dabff 100%,#62ddff 48%);
+        color: white;
+        display: flex;
+        align-items: center;
+        height: 50px;
+        width: 134px;
+        justify-content: center;
+}
+.price-card-bottom:hover{
+        background: rgb(255, 254, 254);
+        color: black;
+        transition: 1.3s;
+}
+
+.price-crad-div-title{
+        display: flex;
+}
+.price-card_bottom{
+        display: flex;
+}
+
+
+/* FEEDBACK FROM CUSTOMERS container */
