@@ -253,7 +253,7 @@ a{
         margin: 0;
         color: white;
         width: 100px;
-        border-radius: 4.6%;
+        border-radius: 3%;
         background: linear-gradient(#68aeec, #5fd3f3);
 }
 .about--bottom:hover {
@@ -466,4 +466,31 @@ a{
 }
 .reating-i{
         width: 15px;
+}
+
+
+
+/* We’ve made a life that will change you  container*/
+
+.laptopdiv-4{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.laptop4-img-div{
+        width: 530px;
+        display: flex;
+        height: 349.27px;
+}
+.laptopdiv-4-el{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.title-laptopdiv-4{
+        display: flex;
+        flex-direction: column;
+        width: 25%;
 }
