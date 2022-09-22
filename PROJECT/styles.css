@@ -11,11 +11,12 @@ p{
         color: #777;
 }
 .a-bottom{
-        border: 1px solid white;
+        border: 0.2px solid white;
         height:  40px;
         width: 124px;
         font-size: 15px;
         display: flex;
+        background-color: #3cb4ff3d;
         align-items: center;
         justify-content: center;
 }
@@ -33,7 +34,7 @@ p{
 .home{
         width: 100%;
         height: 100vh;  
-        background: linear-gradient(#4eacff,#5fd3f3);
+        background: linear-gradient(#3bacf0,#70c3f7);
 }
 
 
@@ -46,7 +47,7 @@ p{
 
 
 .navbar{
-        background-color: #4eacff;
+        background-color: #3bacf0;
         z-index: 99;
         position: fixed;
         width: 100%;
@@ -572,4 +573,45 @@ a{
 }
 .icons{
         margin: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAVBAR LINK CONTAINER */
+
+
+
+
+
+/* ABOUT LINK IN NAVBAR PAGE */
+
+
+.about-page-div1-title{
+        width: 100%;
+        height: 57vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+}
+.about-page-div1-title-h1{
+        color: white;
+        font-size: 35px;
+}
+.a-a{
+        font-size: 14px;
+        margin: 0px;
+}
+.div1-page-a{
+        margin-top: 7px;
 }
