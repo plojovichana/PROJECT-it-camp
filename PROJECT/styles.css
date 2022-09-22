@@ -174,9 +174,9 @@ a{
         margin: 10px 0px;
         padding: 10px;
 }
-.monitor-i:hover{
+/* .monitor-i:hover{
         background: linear-gradient(#007bff,#9cc9fa);
-}
+} */
 .card-h4{
         color: #222;
         margin: 30px;
@@ -497,6 +497,9 @@ a{
 
 /* END OF HOME PAGE */
 
+
+/* first div */
+
 .end-of-home-page{
         width: 100%;
         height: 50vh;
@@ -523,4 +526,50 @@ a{
         border: 1px solid white;
         color: white;
         transition: 0.6s;
+}
+
+
+
+
+
+/* the second div */
+
+
+
+.end--of-home-page{
+        background-color: #000410;
+        width: 100%;
+        height: 55vh;
+}
+
+.columns-end--of-home-page{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 150px 140px;
+}
+
+.first-column-title-h3{
+        color: #fff;
+                font-size: 20px;
+                font-weight: bold;
+                font-family: "Heebo", sans-serif;
+                margin-bottom: 30px;
+}
+.home-page-end-div-colmun-title{
+        width: 450px;
+        /* padding: 0px 20px; */
+}
+
+.end-of-home-page-icon{
+        margin: 10px 0px;
+        margin-right: 10px;
+}
+.a-h{
+        margin:0px 0px;
+}
+.colum3{
+        margin: 0px 80px;
+}
+.icons{
+        margin: 10px 0px;
 }
