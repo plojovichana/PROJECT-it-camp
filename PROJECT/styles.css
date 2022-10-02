@@ -1,3 +1,11 @@
+
+
+/*  */
+
+html{
+        scroll-behavior: smooth;
+}
+
 *{
         margin: 0px;
         padding: 0px;
@@ -64,6 +72,7 @@ p{
 .navbar-a{
         padding: 10px 0px;
         display: flex;
+        color: white;
         justify-content: center;    
 }
 a{
@@ -123,7 +132,7 @@ a{
         background-color: white;
         color: black;
         height: 40px;
-        width: 124px;
+        width: 114px;
         font-size: 15px;
         display: flex;
         align-items: center;
@@ -250,10 +259,11 @@ a{
         background: linear-gradient(#c3e3ff, #8bd9ee);
 }
 .about--bottom{
-        padding: 20px;
+        padding: 20px 30px;
+        padding-right: 0px;
         margin: 0;
         color: white;
-        width: 100px;
+        width: 150px;
         border-radius: 3%;
         background: linear-gradient(#68aeec, #5fd3f3);
 }
@@ -648,4 +658,419 @@ a{
         text-align: center;
         padding: 100px;
         padding-bottom: 0px;
+}
+
+
+/* BLOG LINK IN NAVBAR PAGE */
+
+
+.blog-div1{
+        width: 100%;
+        height: 100vh;
+        background-color: red;
+        display: flex;
+        /* background:url(slike/blog-image-1.jpg) ; */
+        background: linear-gradient( rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.603)),
+        url("slike/blog-image-1.jpg");  
+}
+
+
+.title-blog{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 300px;
+}
+.a_bottom {
+        border: 0.2px solid white;
+        height: 40px;
+        width: 124px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.144);
+        justify-content: center;
+}
+
+.a_bottom:hover {
+        background-color: white;
+        color: black;
+        transition: 0.8s;
+}
+
+.blog-a-div1{
+        background-color: white;
+        color: black;
+        padding: 17px 30px;
+        margin-top: 39px;
+}
+.blog-a-div1:hover{
+        background-color: #007bff;
+        color: white;
+        transition: 0.5s;
+}
+
+
+/* BLOG CARDS 1 */
+
+
+.blog-category-cards{
+        width: 100%;
+        display: flex;
+        background-color: white;
+        padding: 80px 0px ;
+        justify-content: space-evenly;
+}
+.category-card-blog{
+        display: flex;
+        padding: 0px 15px;
+        position: relative;
+}
+.category-card-blog-img{
+        display: flex;
+        width: 330px;
+}
+.category-card-blog-img-div-text{
+        position:absolute;
+        display: flex;
+        padding: 20px;
+}
+
+.blog-category-crad-txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 250px ;
+        height: 170px;
+        background: rgba(34, 34, 34, .8);
+}
+.blog-category-crad-txt:hover{
+        background-color: #007bffc9;
+        transition: 0.4s;
+}
+.blog-category-crad-txt-line{
+        height: 2px;
+        display: flex;
+        margin: 10px 0px;
+        width: 200px;
+        background-color: white;
+}
+
+
+
+
+
+
+.blog-category-crad2-txt:hover {
+        background-color: #007bffc9;
+        transition: 0.4s;
+}
+.blog-category-crad3-txt:hover {
+        background-color: #007bffc9;
+        transition: 0.4s;
+}
+
+.category-card2-blog {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        padding: 0px 15px;
+}
+.category-card3-blog {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        padding: 0px 15px;
+}
+.blog-category-crad2-txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 170px;
+        background: rgba(34, 34, 34, .8);
+}
+.blog-category-crad3-txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 170px;
+        background: rgba(34, 34, 34, .8);
+}
+.category-card3-blog-img-div-text {
+        position: absolute;
+        display: flex;
+        padding: 20px;
+}
+.category-card2-blog-img-div-text {
+        position: absolute;
+        display: flex;
+        padding: 20px;
+}
+.category-card2-blog-img {
+        display: flex;
+        width: 330px;
+}
+.category-card3-blog-img {
+        display: flex;
+        width: 330px;
+}
+
+
+
+
+.posts-blog{
+        display: flex;
+        min-height: 1px;
+                padding-right: 15px;
+                padding-left: 15px;     
+                margin: 50px 0px;
+}
+.bio-card-blog{
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        padding-top: 30px;
+        height: 461.016px;
+        margin-left: 200px;
+        padding-right: 15px;
+                padding-left: 15px;
+}
+.bio-crad-blog-a{
+        padding: 0px 0px 20px;
+        flex-direction: column;
+        
+}
+.bio-blog-a-crad{
+        margin: 0;
+        padding: 0;
+        color: #000410;
+        background-color: transparent;
+        font-size: 15px;
+}
+.bio-blog-a-crad:hover{
+        color: rgb(56, 56, 56);
+}
+.bio-blog-a-crad:active{
+        color: #007bff;
+}
+.list-bio-blog-card{
+        display: flex;
+        flex-direction: column;
+}
+.a-list-biog-crad{
+        display: flex;
+        flex-direction: row;
+        margin: 5px 0px;
+        padding: 0;
+}
+/* .list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        color: #000410;
+} */
+.list-bio-blog-card{
+        display: flex;
+        flex-direction: row;
+}
+.list-bio-blog-crad-p:hover{
+        color: #007bff;
+}
+.list-bio-blog-crad-p{
+        color: #000410;
+        font-size: 13px;
+        /* margin-right: 40px; */
+        margin-left: 50px;
+}
+.image-blog-div{
+                width: 550px;
+                padding-right: 15px;
+                padding-left: 15px;
+}
+
+.div-card-blog-post{
+        width: 100%;
+        display: flex;
+}
+.image-blog-div-title-h2{
+        margin: 5px 0px;
+        color: #222;
+}
+
+.blog-a-div-image {
+        background-color: white;
+        color: black;
+        border: 2px solid rgb(175, 175, 175);
+        padding: 17px 30px;
+        margin: 0px;    
+        margin-top: 50px;
+}
+
+.blog-a-div-image:hover {
+        background-color: #007bff;
+        color: white;
+        border: 0px solid ;
+        transition: 0.5s;
+}
+.image-blog-div-title-p{
+        margin-top: 15px;
+        margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT PAGE  */
+
+
+
+
+
+
+
+
+
+.about-page-div1-title {
+        width: 100%;
+        height: 57vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+}
+
+.about-page-div1-title-h1 {
+        color: white;
+        font-size: 35px;
+}
+.map-contact-div{
+        background-color: white;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+}
+.map-contact-div iframe{
+        height: 400px;
+        width: 60%;
+        margin: 90px 0px;
+}
+.form-contact-icon{
+        width: 24px;
+        height: 24px;
+        margin-right: 15px;
+}
+.form-contact-container{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+}
+.form-contact-page-title{
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0px;
+}
+.form-contact-page-title-{
+        display: flex;
+        flex-direction: column;
+}
+.form-contact-page-icon{
+        display: flex;
+}
+.form-contact-page-title-h5{
+        margin: 5px 0px;
+}
+.col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+}
+.col-75 input{
+        padding: 10px; 
+        width: 400px;
+        border: 1.5px solid rgb(153, 153, 153);
+}
+.forms-columns{
+        display: flex;
+        margin-right: 40px;
+        flex-direction: column;
+}
+.div-for-messages-input{
+        margin: 0px 30px;
+}
+.form-contact-container{
+        margin-left: 170px;
+}
+
+.contact-bottom{
+        padding: 20px 15px;
+        margin: 0;
+        color: white;
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3%;
+        background: linear-gradient(160deg,#4b86b9, #83cfe4);
+        transition: 0.35s all ease-in-out;
+}
+
+.contact-bottom:hover {
+        scale: 1.04;
+}
+
+
+
+
+.col--75 {
+        float: left;
+        width: 35%;
+        margin-top: 6px;
+}
+
+.col--75 input {
+        padding: 10px;
+        width: 260px;
+        border: 1.5px solid rgb(153, 153, 153);
 }
