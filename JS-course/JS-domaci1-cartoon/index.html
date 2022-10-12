@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-color: peachpuff;
+    }
+    button {
+      margin: 15px 5px;
+    }
+  </style>
+  <body>
+    <div
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+      "
+      class="buttons-1"
+    >
+      <button id="button1">Blum</button>
+      <button id="button2">Darsi</button>
+      <button id="button3">Flora</button>
+      <button id="button4">Lejla</button>
+    </div>
+    <div
+      style="display: flex; align-items: center; justify-content: center"
+      class="image-container"
+    >
+      <img id="slika" src="slike/Blum.png" alt="" />
+    </div>
+    <div
+      style="display: flex; align-items: center; justify-content: center"
+      class="buttons-2"
+    >
+      <button id="button5">Mujza</button>
+      <button id="button6">Roxy</button>
+      <button id="button7">Stela</button>
+      <button id="button8">Tehna</button>
+    </div>
+    <script>
+      document.getElementById("button1").addEventListener("click", function () {
+        document.getElementById("slika").src = "slike/Blum.png";
+      });
+
+      document.getElementById("button2").addEventListener("click", function () {
+        document.getElementById("slika").src = "slike/Darsi.png";
+      });
+
+      document.getElementById("button3").addEventListener("click", function () {
+        document.getElementById("slika").src = "slike/Flora.jpg";
+      });
+
+      document.getElementById("button4").addEventListener("click", function () {
+        document.getElementById("slika").src = "slike/Lejla.jpg";
+      });
+
+      document.getElementById("button5").addEventListener("click", function () {
+        document.getElementById("slika").src = "slike/Mujza.jpg";
+      });
+
+      document.getElementById("button6").addEventListener("click", function () {
+        document.getElementById("slika").src = "slike/Roxy.jpg";
+      });
+
+      document.getElementById("button7").addEventListener("click", function () {
+        document.getElementById("slika").src = "slike/Stela.jpg";
+      });
+
+      document.getElementById("button8").addEventListener("click", function () {
+        document.getElementById("slika").src = "slike/Tehna.jpg";
+      });
+    </script>
+  </body>
+</html>
