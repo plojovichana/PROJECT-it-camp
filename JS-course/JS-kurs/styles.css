@@ -1,0 +1,38 @@
+/* #rezultat{
+        height: 50px;
+        margin: 10px 0px;
+        width: 250px;
+        font-size: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: rgb(140, 231, 140);
+}
+input{
+        margin: 2px;
+}
+button{
+        margin: 5px 0px;
+} */
+
+
+
+#rezultat{
+        height: 100px;
+        background-color: rgb(168, 168, 230);
+}
+#input-div{
+        display: flex;
+        flex-direction: column;
+}
+input{
+        width: 350px;
+        margin: 2px 0px;
+}
+textarea{
+        width: 50%;
+}
+button{
+        margin: 6px 0px ;
+}
