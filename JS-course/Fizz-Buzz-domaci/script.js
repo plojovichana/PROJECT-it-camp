@@ -3,11 +3,11 @@ var fizz = 0;
 var buzz = 0;
 var fizzbuzz = 0;
 document.getElementById("button").addEventListener("click",function(){
-        var br1 = document.getElementById("br1").value;
-        var br2 = document.getElementById("br2").value;
+        var a = document.getElementById("br1").value;
+        var b = document.getElementById("br2").value;
         var i;
 
-for (i=br1; i < br2;i++){
+for (i=a; i < b;i++){
         if(i % 3 == 0 && i % 5 == 0){
                 console.log("FizzBuzz");
                 fizzbuzz ++

@@ -45,16 +45,16 @@
 //         rezultat = a / b;
 //         document.getElementById('rezultat').textContent = rezultat;
 // })
-document.getElementById("showtekst"),addEventListener('click',function(){
-        var ime, prezime, godine, mojtekst;
-        ime = getElementById("ime").value;
-        prezime = getElementById("prezime").value;
-        godine = getElementById("godine").value;
-        mojtekst = getElementById("mojtekst").value;
-        rezultat = "Ja, " +ime + " " 
-        + prezime + "." + age + "godina. " + "izjavljujem sledece: " + mojtekst;
+// document.getElementById("showtekst"),addEventListener('click',function(){
+//         var ime, prezime, godine, mojtekst;
+//         ime = getElementById("ime").value;
+//         prezime = getElementById("prezime").value;
+//         godine = getElementById("godine").value;
+//         mojtekst = getElementById("mojtekst").value;
+//         rezultat = "Ja, " +ime + " " 
+//         + prezime + "." + age + "godina. " + "izjavljujem sledece: " + mojtekst;
 
 
-console.log(rezultat);
-document.getElementById("rezultat").textContent = rezultat;
-});
+// console.log(rezultat);
+// document.getElementById("rezultat").textContent = rezultat;
+// });
