@@ -12,4 +12,4 @@ for(var i=1; i < 20; i++){
   }
 }
 console.log(niz)
-console.log("Brojeva koji su deljivi sa 3 ima: ",brojeviDeljiviSaTri)  //5
+console.log("Brojeva koji su deljivi sa 3 ima : ",brojeviDeljiviSaTri)
