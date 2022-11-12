@@ -56,28 +56,60 @@
 
 
 
+// DOMACI :
 
 
 
-var i;
-var text =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit, dui nec placerat convallis, velit dui ullamcorper ex, eu porta felis lorem aliquam arcu. Maecenas sagittis purus sed nulla efficitur, vitae commodo dui tincidunt. Cras quis nisi eget nunc sollicitudin accumsan at eget orci. Donec finibus vestibulum mattis. Vestibulum volutpat venenatis finibus. In in scelerisque tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras finibus lectus at leo finibus viverra. Integer eros erat, sagittis non malesuada ut, iaculis efficitur nisl. Nulla fringilla neque nulla, a bibendum arcu hendrerit nec.";
 
-var recenice = text.split("."); 
-var reci = text.split(" "); 
-var karakteri  = text.split("");
-var slova = [];
-for (i=0; i<= karakteri.length-1; i++){
-  if(karakteri[i] !== '' && karakteri[i] !== '.' && karakteri[i] !== ',' && karakteri[i] !== '!' && karakteri[i] !== '?'){
-    slova.push(karakteri[i]);
-  }
+
+// var i;
+// var text =
+//   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit, dui nec placerat convallis, velit dui ullamcorper ex, eu porta felis lorem aliquam arcu. Maecenas sagittis purus sed nulla efficitur, vitae commodo dui tincidunt. Cras quis nisi eget nunc sollicitudin accumsan at eget orci. Donec finibus vestibulum mattis. Vestibulum volutpat venenatis finibus. In in scelerisque tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras finibus lectus at leo finibus viverra. Integer eros erat, sagittis non malesuada ut, iaculis efficitur nisl. Nulla fringilla neque nulla, a bibendum arcu hendrerit nec.";
+
+// var recenice = text.split("."); 
+// var reci = text.split(" "); 
+// var karakteri  = text.split("");
+// var slova = [];
+// for (i=0; i<= karakteri.length-1; i++){
+//   if(karakteri[i] !== '' && karakteri[i] !== '.' && karakteri[i] !== ',' && karakteri[i] !== '!' && karakteri[i] !== '?'){
+//     slova.push(karakteri[i]);
+//   }
+// }
+// console.log("tekst: ",text);
+// console.log("_______________________________________________________")
+// console.log("Recenice: ", recenice);
+// console.log("Reci: ", reci);
+// console.log("slova: ",slova);
+
+// console.log("tekst ima " + recenice.length + " recenica");
+// console.log("tekst ima " + reci.length + " reci");
+// console.log("tekst ima " + slova.length + " slova");
+
+
+
+
+
+
+var arr = [1,7,2,-1,1,-63,6432,9,21];
+var indexi= [];
+var k = 0;
+for (var i = 0;i <= arr.length-1;i++){
+        for(var j = i +1;j<= arr.length-1;j++){
+                k++
+                var br1 = arr[i];
+                var br2 = arr[j];
+
+                if(br1 + br2 == 10){
+                        indexi.push(i,j);
+                        break;
+                }
+
+        }
+        if(indexi.length=== 2){
+                        break;
+        }
+        
+
 }
-console.log("tekst: ",text);
-console.log("_______________________________________________________")
-console.log("Recenice: ", recenice);
-console.log("Reci: ", reci);
-console.log("slova: ",slova);
-
-console.log("tekst ima " + recenice.length + " recenica");
-console.log("tekst ima " + reci.length + " reci");
-console.log("tekst ima " + slova.length + " slova");
+console.log("Indeksi: ",indexi)
+console.log("Kod se izvrsio ",k," puta")
